@@ -5,7 +5,7 @@
 statsNZ
 =======
 
-The statsNZ package allows access to the StatisticsNZ API from within R.
+The statsNZ package allows access to the [StatisticsNZ](http://www.stats.govt.nz/) [API](https://statisticsnz.portal.azure-api.net/) from within R.
 
 This is very much a work in progress! The StatisticsNZ API is brand new and still in the testing phase.
 
