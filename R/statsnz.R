@@ -1,3 +1,6 @@
+#' @importFrom utils read.table type.convert
+NULL
+
 #' api_fetch
 #'
 #' Helper function to fetch information from the StatisticsNZ API

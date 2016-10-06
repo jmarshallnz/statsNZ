@@ -1,10 +1,15 @@
 Package: statsNZ
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Access To StatisticsNZ API
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Authors@R: person("Jonathan", "Marshall", email = "J.C.Marshall@massey.ac.nz", role = c("aut", "cre"))
+Description: Provides access to the StatisticsNZ API to retrieve StatisticsNZ data.
+License: GPL-3
+Depends:
+    R(>= 2.10)
+Imports:
+    lubridate,
+    httr
 LazyData: TRUE
+URL: http://github.com/jmarshallnz/statsNZ
 RoxygenNote: 5.0.1

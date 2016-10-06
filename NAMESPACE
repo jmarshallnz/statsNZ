@@ -3,3 +3,5 @@
 export(available_stats)
 export(get_groups)
 export(get_stats)
+importFrom(utils,read.table)
+importFrom(utils,type.convert)
