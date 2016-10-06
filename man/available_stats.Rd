@@ -2,7 +2,7 @@
 % Please edit documentation in R/statsnz.R
 \name{available_stats}
 \alias{available_stats}
-\title{available_stats}
+\title{Statistics available from the StatisticsNZ API}
 \usage{
 available_stats()
 }

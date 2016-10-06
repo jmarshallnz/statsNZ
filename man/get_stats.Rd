@@ -2,7 +2,7 @@
 % Please edit documentation in R/statsnz.R
 \name{get_stats}
 \alias{get_stats}
-\title{get_stats}
+\title{Get data on a particular statistic}
 \usage{
 get_stats(stat, group = NULL)
 }

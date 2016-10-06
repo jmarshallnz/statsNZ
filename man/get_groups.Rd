@@ -2,7 +2,7 @@
 % Please edit documentation in R/statsnz.R
 \name{get_groups}
 \alias{get_groups}
-\title{get_groups}
+\title{Get groups for a particular statistic}
 \usage{
 get_groups(stat)
 }

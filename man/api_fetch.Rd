@@ -2,7 +2,7 @@
 % Please edit documentation in R/statsnz.R
 \name{api_fetch}
 \alias{api_fetch}
-\title{api_fetch}
+\title{Fetch from the NZ Statistics API}
 \usage{
 api_fetch(url_path, query = NULL)
 }

@@ -1,7 +1,7 @@
 #' @importFrom utils read.table type.convert
 NULL
 
-#' api_fetch
+#' Fetch from the NZ Statistics API
 #'
 #' Helper function to fetch information from the StatisticsNZ API
 #'
@@ -27,8 +27,6 @@ api_fetch <- function(url_path, query = NULL) {
   req
 }
 
-#' available_stats
-#'
 #' Statistics available from the StatisticsNZ API
 #'
 #' @return A data.frame with columns Stat and Description of statistics from the StatsNZ API.
@@ -56,7 +54,7 @@ available_stats <- function() {
   return(nz_stats)
 }
 
-#' get_groups
+#' Get groups for a particular statistic
 #'
 #' Get the groups available for a particular statistic from the StatisticsNZ API
 #'
@@ -76,7 +74,7 @@ get_groups <- function(stat) {
   httr::content(req, simplifyVector = TRUE)
 }
 
-#' get_stats
+#' Get data on a particular statistic
 #'
 #' Get statistics data on a given statistic (optionally) and given group from the StatisticsNZ API
 #'
