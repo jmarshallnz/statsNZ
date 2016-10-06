@@ -60,7 +60,7 @@ alc %>%
     theme(legend.title = element_blank())
 ```
 
-```{r alcohol, echo = FALSE, message = FALSE}
+```{r alcohol, echo = FALSE, message = FALSE, fig.width=10, fig.height=6}
 library(statsNZ)
 library(dplyr)
 library(ggplot2)
