@@ -11,6 +11,10 @@ This is very much a work in progress! The StatisticsNZ API is brand new and stil
 
 This package will very likely change in the future!
 
+# EDIT: 21 February 2023. This no longer functions - the API has disappeared and has been replaced with something new.
+
+See here for details: https://github.com/StatisticsNZ/open-data-api
+
 Installation
 ------------
 
